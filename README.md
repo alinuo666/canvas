@@ -1,19 +1,3 @@
-# 网站：[https://ai.t8star.org](https://ai.t8star.org/register?aff=dP7j)
-# 致谢企鹅-企鹅的在线画布：[https://art.pebbling.cn](https://art.pebbling.cn/?invite=T8STAR)
-# Online workflow overseas：
-https://www.runninghub.ai/?inviteCode=rh-v1121
-# 在线工作流国内版：
-https://www.runninghub.cn/?inviteCode=rh-v1121
-# 👋🏻 Welcome to Zhenzhen
-
-<img src="https://github.com/T8mars/Comfyui-zhenzhen/blob/main/pic/1.png" width="30%" alt="My favorite girl">
-My favorite girl Go YounJung
-# 🐧 贞贞的无限画布（企鹅共创版） · T8-penguin-canvas
-
-> AI 节点画布工作流工具 · Web + Electron 桌面端｜v1.9.1
->
-> GitHub：<https://github.com/T8mars/T8-penguin-canvas>
-
 一个面向 AI 创作的 **节点式画布**：拖拽节点、连线编排、生成图像 / 视频 / 音频、调用 LLM、串接 RunningHub 工作流，叠加批量执行、智能对齐、打组、主题模板与终端日志。Web 浏览器即可使用，亦可一键打包为 Windows 桌面端（NSIS 安装包）。
 
 ![status](https://img.shields.io/badge/version-v1.9.1-brightgreen) ![node](https://img.shields.io/badge/node-%E2%89%A518-blue) ![react](https://img.shields.io/badge/react-19-61dafb) ![electron](https://img.shields.io/badge/electron-33-47848f) ![license](https://img.shields.io/badge/license-MIT-yellow)
@@ -310,12 +294,3 @@ MIT License © T8mars
 
 ---
 
-## 🐧 Credits
-
-- 主作者：[T8mars](https://github.com/T8mars)
-- 灵感来源：PenguinPravite · Infinite Canvas · zhenzhen-web
-- 致谢上游服务：贞贞工坊（T8star）· RunningHub · OpenAI 兼容生态
-- 去AI水印辅助节点桥接 [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)（MIT License），算法能力由上游 Python 包 / CLI 提供；完整 Electron 用户包可随 `resources/tools/remove-ai-watermarks` sidecar runtime 分发
-- 桌面端打包方案：bytenode + electron-builder + NSIS
-
-如果这个项目对你有帮助，欢迎给一个 ⭐ Star！
