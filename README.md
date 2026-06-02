@@ -1,4 +1,4 @@
-一个面向 AI 创作的 **节点式画布**：拖拽节点、连线编排、生成图像 / 视频 / 音频、调用 LLM、串接 RunningHub 工作流，叠加批量执行、智能对齐、打组、主题模板与终端日志。Web 浏览器即可使用，亦可一键打包为 Windows 桌面端（NSIS 安装包）。
+本项目转自T8和企鹅，本项目是一个面向 AI 创作的 **  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.节点式画布**  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.：拖拽节点、连线编排、生成图像 / 视频 / 音频、调用 LLM、串接 RunningHub 工作流，叠加批量执行、智能对齐、打组、主题模板与终端日志。Web 浏览器即可使用，亦可一键打包为 Windows 桌面端（NSIS 安装包）。
 
 ![status](https://img.shields.io/badge/version-v1.9.1-brightgreen) ![node](https://img.shields.io/badge/node-%E2%89%A518-blue) ![react](https://img.shields.io/badge/react-19-61dafb) ![electron](https://img.shields.io/badge/electron-33-47848f) ![license](https://img.shields.io/badge/license-MIT-yellow)
 
@@ -8,11 +8,6 @@
 
 从 0 到 1 上手，推荐初次使用者先过一遍视频教程了解整体节点拖拽、连线、API Key 配置、批量运行、组合与终端日志等核心能力：
 
-| 平台 | 链接 |
-|---|---|
-| 🅱️ B 站教程 | <https://www.bilibili.com/video/BV18sG76AE9Y/> |
-| ▶️ Youtube 教程 | <https://www.youtube.com/watch?v=V8oCBhemmCQ> |
-
 > 如果你是首次上手，建议先跳转视频看一遍再动手，可避免在 API Key / 节点连线语义 / 模型选择上走弯路。
 
 ---
@@ -20,7 +15,12 @@
 ## ✨ 功能亮点
 
 - 🎨 **41 个节点**，覆盖文本 / 图像 / 视频 / 音频 / LLM / RunningHub / 工具 / 辅助 / 工具箱 / 输出预览 / 上传素材 / 素材集
+- 🧺 **  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.画布级批量导入 + 素材合集打散**  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.：上传节点支持一次选择多张图 / 多个视频 / 多段音频；也可直接把剪贴板或文件拖到画布，同类型多素材自动形成合集，上传和输出合集都可一键打散为多个独立素材节点
 - 🧺 **画布级批量导入 + 素材合集打散**：上传节点支持一次选择多张图 / 多个视频 / 多段音频；也可直接把剪贴板或文件拖到画布，同类型多素材自动形成合集，上传和输出合集都可一键打散为多个独立素材节点
+- 🧺 **  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.画布级批量导入 + 素材合集打散**  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.：上传节点支持一次选择多张图 / 多个视频 / 多段音频；也可直接把剪贴板或文件拖到画布，同类型多素材自动形成合集，上传和输出合集都可一键打散为多个独立素材节点
+- 👁️ **  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.上传 / 输出图像原图悬停预览**（v1.8.7）：上传素材与输出素材的图像卡片在 hover 时显示小眼睛按钮，鼠标停在按钮上可按 100% 原尺寸预览，超出视口时自动等比收进可见区域，输出素材入口位于图像对比按钮下方
+- 👁️ **上传 / 输出图像原图悬停预览**（v1.8.7）：上传素材与输出素材的图像卡片在 hover 时显示小眼睛按钮，鼠标停在按钮上可按 100% 原尺寸预览，超出视口时自动等比收进可见区域，输出素材入口位于图像对比按钮下方
+- 👁️ **上传 / 输出图像原图悬停预览**（v1.8.7）：上传素材与输出素材的图像卡片在 hover 时显示小眼睛按钮，鼠标停在按钮上可按 100% 原尺寸预览，超出视口时自动等比收进可见区域，输出素材入口位于图像对比按钮下方
 - 👁️ **上传 / 输出图像原图悬停预览**（v1.8.7）：上传素材与输出素材的图像卡片在 hover 时显示小眼睛按钮，鼠标停在按钮上可按 100% 原尺寸预览，超出视口时自动等比收进可见区域，输出素材入口位于图像对比按钮下方
 - 🧹 **生成节点上游素材单项排除**（v1.8.8）：图像 / 视频 / SD2.0 / 音频 / LLM / RunningHub / RH 工具节点的上游素材缩略图右下角可点 X，从当前节点排除单个传入素材但不切断连线，并可用“恢复N”一键恢复
 - 🗂️ **素材集节点 + 资源库整套复用**：可把同类型文本 / 图像 / 视频 / 音频合并为素材集，支持拖拽排序、反转 / 文件名 / 随机排序、导入素材集 / 导出素材集、保存到资源库、从资源库整套插入画布；未选中节点时按 `R` 可快速打开 / 关闭资源库
@@ -75,7 +75,11 @@
 git clone https://github.com/T8mars/T8-penguin-canvas.git
 cd T8-penguin-canvas
 npm install
+cd backend && npm install && cd ..  ```bash
 cd backend && npm install && cd ..
+```  ```bash
+cd backend && npm install && cd ..
+```
 ```
 
 ### 启动开发模式
@@ -104,14 +108,14 @@ npm run dev
 
 Key 保存到 `data/settings.json`；前端 GET 接口仅返回 `****xxxx` 脱敏值，明文仅供后端代理本地使用，永不泄露。
 
-> **不需要全部配置**：只填需要使用的那一类即可，其它节点会在运行时友好提示「未配置 XXX API Key」。
+>  Please provide the text that needs to be translated, and I will translate it into Simplified Mandarin Chinese according to the given rules. **  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.不需要全部配置**  It seems the input text is incomplete. Please provide the full content that needs to be translated, and I will assist you accordingly.：只填需要使用的那一类即可，其它节点会在运行时友好提示「未配置 XXX API Key」。
 
 ---
 
 ## 🖥️ Electron 桌面端打包
 
 ```bash
-# 一键出 Windows NSIS 安装包
+# 一键出 Windows NSIS 安装包  # 一键生成 Windows NSIS 安装包
 npm run dist
 ```
 
@@ -270,6 +274,7 @@ npm run preview       # 本地预览构建产物
 | 工具箱 (3) | cinematic · video-motion · multi-angle-visual |
 
 > 任何节点的删减都需在 [features.json](./features.json) 中说明，并同步本地私有 `skill.md`。
+任何节点的删减都需在 [features.json](./features.json) 中说明，并同步本地私有 `skill.md`。
 
 ---
 
